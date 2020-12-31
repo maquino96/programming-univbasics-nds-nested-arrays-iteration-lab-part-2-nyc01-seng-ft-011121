@@ -4,8 +4,8 @@ def find_min_in_nested_arrays(src)
   result_array = []
   row_index = 0 
   while row_index < src.count do
-    src[row_index].sort 
-    result_array.push(src[row_index][0])
+    #src[row_index].sort 
+    result_array.push(src[row_index].sort[0])
     row_index+=1
   end
   result_array
